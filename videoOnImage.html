@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/javascript.js" defer></script>
+    <title>Image Effects</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="addInfo">
+        <h1 class="message">
+          Convert Your <span>Image</span> Image <span>Symbol</span>
+        </h1>
+
+        <div class="upload-btn-wrapper image">
+          <button class="upload-btn">Upload a file</button>
+          <input type="file" name="myfile" id="imageCode" />
+        </div>
+
+        <div class="show">
+          <p id="youSymble">Select Your 13 Symbol</p>
+        </div>
+
+        <div class="symbol">
+          <button class="btn">@</button>
+          <button class="btn">!</button>
+          <button class="btn">#</button>
+          <button class="btn">$</button>
+          <button class="btn">%</button>
+          <button class="btn">^</button>
+          <button class="btn">&</button>
+          <button class="btn">*</button>
+          <button class="btn">()</button>
+          <button class="btn">+</button>
+          <button class="btn">=</button>
+          <button class="btn">{}</button>
+          <button class="btn">[]</button>
+          <button class="btn">\\</button>
+          <button class="btn">?</button>
+          <button class="btn">//</button>
+          <button class="btn">||</button>
+          <button class="btn">//</button>
+          <button class="btn">-</button>
+          <button class="btn">~</button>
+          <button class="btn">`</button>
+          <button class="btn">:</button>
+          <button class="btn">""</button>
+          <button class="btn">''</button>
+          <button class="btn">..</button>
+          <button class="btn">,</button>
+          <button class="btn">&#9734;</button>
+          <button class="btn">&#8595;</button>
+        </div>
+
+        <button class="subimt">Generate Image Art</button>
+
+        <span class="close-btn"><i class="uil uil-multiply"></i></span>
+      </div>
+      <div class="display">
+        <canvas id="canvas"></canvas>
+        <div class="controls">
+          <label for="resolution" id="resolutionLabel">Resolution 5 px</label>
+          <input
+            type="range"
+            id="resolution"
+            name="resolution"
+            min="1"
+            max="20"
+            value="1"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="open">
+      <span><i class="uil uil-qrcode-scan"></i></span>
+    </div>
+
+    <div class="overlay"></div>
+
+    <h4 class="mobile-logo">Image Effect</h4>
+  </body>
+</html>
